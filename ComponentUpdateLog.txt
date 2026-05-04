@@ -1,0 +1,7 @@
+Last Modified Date & Time: 02/23/2026 10:55:34
+
+Task1Lab2UART: Task1Lab2UART.cydwr
+	cy_boot [v6.0] to [v6.10]
+	LIN_Dynamic [v5.0] to [v6.0]
+
+
