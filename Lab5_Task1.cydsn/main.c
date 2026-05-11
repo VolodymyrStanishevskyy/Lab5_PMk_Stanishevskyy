@@ -35,7 +35,7 @@ static volatile uint8 led_counter = 0;
 
 CY_ISR(Timer_Int_Handler2)
 {
-    const uint8 digits[2] = {3, 1};
+    const uint8 digits[2] = {3, 9};
     FourDigit74HC595_sendOneDigit(led_counter, digits[led_counter], 0);
     led_counter++;
     if (led_counter > 1)
